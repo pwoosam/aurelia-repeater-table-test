@@ -12,7 +12,8 @@
     "aurelia-animator-css": "^1.0.4",
     "bootstrap": "4.4.1",
     "jquery": "3.4.1",
-    "popper.js": "1.16.0"
+    "popper.js": "1.16.0",
+    "statman-stopwatch": "^2.11.1"
   },
   "devDependencies": {
     "aurelia-cli": "^1.0.2",
