@@ -7,7 +7,13 @@
         <div class="form-inline">
           <label>Number of Tables:</label>
           <input class="form-control ml-2 w-6rem" type="number" value.bind="_nTables | number">
-  
+
+          <label class="ml-2">Number of Rows:</label>
+          <input class="form-control ml-2 w-6rem" type="number" value.bind="_nRowsPerTable | number">
+
+          <label class="ml-2">Number of Cols:</label>
+          <input class="form-control ml-2 w-6rem" type="number" value.bind="_nColsPerTable | number">
+
           <button class="btn btn-primary ml-2" click.delegate="_renderTables()">Render Tables</button>
         </div>
       </div>
