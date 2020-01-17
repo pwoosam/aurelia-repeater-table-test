@@ -1,0 +1,8 @@
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@for $i from 1 through 20 {
+  .w-#{$i}rem {
+    width: #{$i}rem !important;
+  }
+}

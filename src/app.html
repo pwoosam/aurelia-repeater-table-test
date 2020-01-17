@@ -1,0 +1,24 @@
+<template>
+  <require from="./styles/application.scss"></require>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="form-inline">
+          <label>Number of Tables:</label>
+          <input class="form-control ml-2 w-6rem" type="number" value.bind="_nTables | number">
+  
+          <button class="btn btn-primary ml-2" click.delegate="_renderTables()">Render Tables</button>
+        </div>
+      </div>
+      <div class="col-auto">
+        Estimated number of bindings: ${_nRowsPerTable * _nColsPerTable * _nTables}
+      </div>
+    </div>
+    <div class="row" repeat.for="tableData of _tableDatas">
+      <div class="col">
+        <test-table data.bind="tableData"></test-table>
+      </div>
+    </div>
+  </div>
+</template>
