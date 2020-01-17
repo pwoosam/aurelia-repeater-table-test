@@ -1,4 +1,4 @@
-# `aurelia-large-tables-repeater-performance`
+# `aurelia-repeater-table-test`
 
 This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
